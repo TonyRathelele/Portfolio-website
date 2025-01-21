@@ -14,7 +14,7 @@ class Portfolio extends Component {
         text:
           "Front-end e-commerce website with add to cart functionality using HTML, CSS, and JavaScript",
         link: "https://product-js.vercel.app/" // Make sure to pass the link
-      }
+      },
       {
         img: img2,
         title: "Note Sharing",
