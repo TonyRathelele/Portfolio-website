@@ -8,7 +8,7 @@ class About extends Component {
   constructor() {
     super();
     this.state = {
-      percentage: 35
+      percentage: 90
     };
   }
   render() {
@@ -27,7 +27,7 @@ class About extends Component {
           <div>
             <h1>Software Developer</h1>
             <p className="text">
-              Hi, I'm Tony Matome Rathelele a Full Stack developer based in South Africa. Tech enthusiast with a passion for development.
+              Hi, I'm Tony Matome Rathelele a Full Stack developer(Front-end and back-end) based in South Africa. Tech enthusiast with a passion for development.
             </p>
             <div className="about__buttons">
              
