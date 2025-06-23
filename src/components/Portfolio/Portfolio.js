@@ -17,7 +17,10 @@ class Portfolio extends Component {
       },
       {
         img: img2,
-        title: "Note Sharing",
+        title: "AI Resume Builder",
+                text:
+          "This is an intelligent resume generation system that creates customized, ATS-friendly resumes based on user inputs.",
+        link: "https://ai-resume-builder-theta-ten.vercel.app/"
       }
     ];
   }
