@@ -21,6 +21,12 @@ class Portfolio extends Component {
                 text:
           "This is an intelligent resume generation system that creates customized, ATS-friendly resumes based on user inputs.",
         link: "https://ai-resume-builder-theta-ten.vercel.app/"
+      },
+        img: img2,
+        title: "Tertiary Education Content Creator",
+                text:
+          "This is an intelligent resume generation system that creates customized, ATS-friendly resumes based on user inputs.",
+        link: "https://ai-resume-builder-theta-ten.vercel.app/"
       }
     ];
   }
