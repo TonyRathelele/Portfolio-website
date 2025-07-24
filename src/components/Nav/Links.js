@@ -6,6 +6,8 @@ class Links extends Component {
     this.links = [
       "home",
       "about",
+      "education",
+      "work",
       "portfolio",
     ];
     this.state = {
