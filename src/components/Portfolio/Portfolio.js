@@ -3,6 +3,11 @@ import Work from "./Work_box";
 import "./style.css";
 import img1 from "../../assets/download.png";
 import img2 from "../../assets/coomingsoon.jpg"
+import img3 from "../../assets/img2.png"
+import img4 from "../../assets/img3.png"
+import img5 from "../../assets/img4.png"
+import img6 from "../../assets/img5.png"
+import img7 from "../../assets/img6.png"
 
 class Portfolio extends Component {
   constructor() {
@@ -17,44 +22,42 @@ class Portfolio extends Component {
         github: "https://github.com/TonyRathelele/product-js"
       },
       {
-        img: img2,
-        title: "AI Resume Builder",
+        img: img3,
+        title: "Safe-Space-AI",
         text:
-          "This is an intelligent resume generation system that creates customized, ATS-friendly resumes based on user inputs.",
-        live: "https://ai-resume-builder-theta-ten.vercel.app/",
-        github: "https://github.com/TonyRathelele/ai-resume-builder"
+          "This is an ai intelligent that Instantly report incidents, get live analysis, and find support using the power of your voice and our intelligent AI. We're here to listen and help, 24/7. ",
+        live: "https://safe-space-ai.vercel.app/",
+        github: "https://github.com/TonyRathelele/-SafeSpace-AI.git"
       },
       {
-        img: img1,
-        title: "Weather App",
+        img: img4,
+        title: "News website",
         text:
-          "A simple weather application that fetches real-time weather data using a public API.",
-        live: "https://weather-app.example.com/",
-        github: "https://github.com/TonyRathelele/weather-app"
+          "A simple news application using php for frontend and backend development.",
+        github: "https://github.com/TonyRathelele/News-website.git"
       },
       {
-        img: img2,
-        title: "Task Manager",
+        img: img5,
+        title: "Tertiary Education Content Creator",
         text:
-          "A productivity tool for managing daily tasks with user authentication and cloud sync.",
-        live: "https://task-manager.example.com/",
-        github: "https://github.com/TonyRathelele/task-manager"
+          "Generate high-quality academic content for university students and higher education using gemini API",
+        live: "https://tertiary-content-creator.vercel.app/",
+        github: "https://github.com/TonyRathelele/Tertiary-Content-Creator.git"
       },
       {
-        img: img1,
-        title: "Portfolio V2",
+        img: img7,
+        title: "Chatbot",
         text:
-          "A redesigned personal portfolio website with animations and dark mode support.",
-        live: "https://portfolio-v2.example.com/",
-        github: "https://github.com/TonyRathelele/portfolio-v2"
+          "Next js chatbot similar to chatgpt using vercel  template",
+        live: "https://myai-beryl.vercel.app/",
+        github: "https://github.com/TonyRathelele/my_ai.git"
       },
       {
-        img: img2,
-        title: "Blog Platform",
+        img: img6,
+        title: "Sign-in Platform",
         text:
-          "A full-stack blog platform with markdown support and user comments.",
-        live: "https://blog-platform.example.com/",
-        github: "https://github.com/TonyRathelele/blog-platform"
+          "A full-stack Sign-in platform with face and qr scanner using PHP",
+        github: "https://github.com/TonyRathelele/Hackathon.git"
       },
       {
         img: img1,
