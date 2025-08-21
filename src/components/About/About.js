@@ -2,7 +2,7 @@ import { Component } from "react";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import "./style.css";
-import cvFile from "../About/Tony-Rathelele-CV.pdf"
+import cvFile from "../About/(Tony)2024 Candidate CV V2 1.pdf"
 
 class About extends Component {
   constructor() {
@@ -26,12 +26,27 @@ class About extends Component {
         <section className="about__container">
           <div className="container">
             <div>
-              <h1>Software Developer</h1>
+              <h1>Software Developer & AI Prompt Engineer</h1>
               <p className="text">
                 Hi, I'm Tony Matome Rathelele a Full Stack developer(Front-end and back-end) based in South Africa. Tech enthusiast with a passion for development.
               </p>
               <div className="about__buttons">
                 <button className="btn btn-primary" onClick={onButtonClick}>Download CV</button>
+              </div>
+
+              <div className="about__stats">
+                <div className="about__stat">
+                  <h3>2+</h3>
+                  <p>year of experience</p>
+                </div>
+                <div className="about__stat">
+                  <h3>19+</h3>
+                  <p>Projects completed</p>
+                </div>
+                <div className="about__stat">
+                  <h3>15+</h3>
+                  <p>Technologies</p>
+                </div>
               </div>
             </div>
             <div style={{ position: "relative" }}>

@@ -7,6 +7,7 @@ class Links extends Component {
       "home",
       "about",
       "education",
+      "certificates",
       "work",
       "portfolio",
     ];

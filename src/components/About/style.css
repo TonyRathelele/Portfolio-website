@@ -7,6 +7,33 @@
   .about__container {
     position: relative;
   }
+  .about__stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    background: var(--color-blue-primary);
+    border-radius: var(--radius);
+    padding: 1.2rem 1.4rem;
+    box-shadow: var(--box-shadow);
+    margin-top: 1.5rem;
+  }
+  .about__stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .about__stat h3 {
+    color: var(--color-white);
+    font-size: 2rem;
+    line-height: 1;
+  }
+  .about__stat p {
+    margin-top: 0.3rem;
+    font-weight: 500;
+    color: var(--color-white);
+  }
   .about__buttons button {
     margin-right: 1.5rem;
   }
@@ -78,7 +105,9 @@
     .about__container .container {
       width: 100% !important;
       padding: 0 1rem;
-      display: block;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 1rem;
     }
     .about__buttons {
       display: grid;
@@ -101,6 +130,14 @@
       line-height: 1.5;
       color: var(--color-violet);
       margin: 1rem 0;
+    }
+    /* Make the programming level card appear in normal flow and span full width */
+    .about__progress {
+      position: static;
+      width: 100%;
+      left: auto;
+      top: auto;
+      margin: 0.5rem 0 0 0;
     }
   }
   .work-experience__container {
@@ -160,6 +197,61 @@
   }
   .footer__socials a:hover {
     color: var(--color-blue-primary);
+  }
+  /* Certificates */
+  .certificates__container {
+    margin-top: 3rem;
+    background: #fff;
+    border-radius: var(--radius);
+    padding: 2rem 0;
+  }
+  .certificates__container h2 {
+    color: var(--color-blue-primary);
+    margin-bottom: 1.5rem;
+  }
+  .certificates__list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+  .certificates__list li {
+    margin: 0;
+    padding: 1.25rem;
+    border: 1px solid #eee;
+    border-radius: var(--radius);
+    background: #fff;
+    box-shadow: var(--box-shadow);
+  }
+  .certificates__list h3 {
+    margin: 0 0 0.3rem 0;
+    color: var(--color-violet);
+  }
+  .certificates__list span {
+    display: block;
+    font-size: 0.95rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+  }
+     .certificates__list p {
+     margin: 0 0 1rem 0;
+     color: #333;
+     font-size: 0.98rem;
+   }
+   .certificates__list button {
+     margin-top: auto;
+   }
+  @media screen and (max-width: 1024px) {
+    .certificates__list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .certificates__list {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
   }
   .education__container {
     margin-top: 3rem;

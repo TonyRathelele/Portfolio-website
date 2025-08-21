@@ -7,6 +7,7 @@ import WorkExperience from "./components/WorkExperience";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Footer from "./components/Footer";
 import Education from "./components/education";
+import Certificates from "./components/Certificates";
 import './App.css'
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
           <About />
           <Services />
           <Education />
+          <Certificates />
           <WorkExperience />
           <Portfolio />
           <Footer />
